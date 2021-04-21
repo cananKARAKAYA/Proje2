@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>tasarım kodlama</title>
+</head>
+
+<body>
+     <h1>BGC Tasarım Programı Kurulumu ve Satış Sözleşmesi</h1>
+     <form action="" mmethod="post" enctype="multipart/form-data">
+         <fieldset>
+             <legend>sözleşme onay</legend>
+             <input type="checbox" id="onay" name"onay" value="1"
+             required>
+             <label for="onay">Aşağıdaki bilgilerin doğruluğunu 
+            kabul ediyorum ve sözleşmeyi onaylıyorum.</label><br>
+            <input type="submit" id="btnK" name="btnK"
+            value="Formu Kaydet">
+        <input type="reset" id=btnT" name="ntnT" value="Formu Temizle">
+        </fieldset>
+        </fieldset>
+              <legend>Kullanıcı Bilgileri</legend>
+              <table border="1">
+                  <tr>
+                      <td>Form Bilgileri ID</td>
+                      <td>
+                      <input type="text" id="gID" name="gID" 
+                      Value="asfg" disable>
+                      <input type="hidden" id="gIDI" name="gIDI"
+                      Value="asfg">
+                </td>
+                    
+                </tr>
+                <tr> 
+                    <td>Adınız</td>
+                    <td>
+                    <input type="text" name="ad" id="ad"
+                    placeholder="adınızı giriniz">
+                    </td>
+                </tr>
+                <tr>
+                     <td>Soyadınız</td>
+                     <td>
+                     <input type="text" name="sad" id="sad"
+                     placeholder=soyadınızı giriniz">
+                     </td> 
+                </tr>
+                <tr>
+                      <td>mail</td>
+                      <td>
+                      <input type="email" id="eposta"
+                      name="eposta">
+                      </td>
+                </tr>
+                <tr>
+                      <td>Fotğraf Ekle</td>
+                      <td>
+                      <input type="file" id="dosya" name="dosya">
+                      </td>
+                </tr>
+                <tr>
+                      <td>Ürün Şifresi(6 haneli)</td>
+                      <td>
+                      <input type="password" id="sifre"
+                      name="sifra" required maxlength="6">
+                 </td>
+             </tr>
+        </table>
+    </fieldset>
+    </fieldset>
+          <legend> Diğer Bilgiler</legend>
+          <table>  
+              <tr>
+                   <th colspan="2">
+                   Buradaki alanlar Meslekim Deneyimi Kapsar
+                   </th> 
+                </tr>
+                <tr>
+                    <td>Sektöre giriş tarihi</td>
+                    <td>
+                    <input type="date" id="tarih" name="tarih
+                    value="2010-01-01">
+                    </td>
+                </tr>
+                <tr>
+                    <td<Sektör Deneyimi</td>
+                    <td>
+                    <label>
+                        <input type="radio" id="yilı" name="yil"
+                        value="1"> 1 - 5 yil
+                    </label><br>
+                    <label>
+                    <input type="radio"  id="yil2" name="yil"
+                    value="2"> 6 - 10 yil
+                    </label><br>
+                    <b-label>
+                          <input type="radio" id="yil3" name="yil"
+                          value="1"> 15 yil üzeri
+                    </label><br>
+                           <td>Programlama Dilleri</td>
+                           <td>
+                               <select size="5" name="pdil" id=pdil>
+                                   <option value="1">c#</option>
+                                   <option value="2"selected>PHP</option>
+                                   <option value="3">JA selected
+                                   <option value="4">Javascript</option>
+                                   <option value="5">phthon</option>
+                                   <option value="6">pascal</option>
+                            </select>>>>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            </fieldset> 
+                 <legent>Sözleşme Kopyası</legent>
+                 <textarea>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. 
+                 Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere
+                 bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı
+                 sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle
+                 kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır.
+                 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması
+                 ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren
+                 masaüstü yayıncılık yazılımları ile popüler olmuştur.</textarea>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
